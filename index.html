@@ -3,28 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio</title>
     <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
-    <title>Studio</title>
   </head>
-  <body class="site-body">
+  <body>
     <!--header-->
     <header class="header">
       <div class="container header-container">
+        <div class="logo-link">
+          <a class="logo link" href="./index.html">
+            web <span class="header-logo-studio">studio</span>
+          </a>
+        </div>
+
         <nav class="header-navigation">
-          <div class="logo-link">
-            <a class="logo link" href="./index.html">
-              web <span class="header-logo-studio">studio</span>
-            </a>
-          </div>
           <ul class="header-list list">
             <li class="header-item">
               <a class="header-link current link" href="./index.html">Studio</a>
@@ -36,7 +39,7 @@
               <a class="header-link link" href="./index.html">Contacts</a>
             </li>
           </ul>
-        </nav>
+        
         <ul class="contacts list">
           <li>
             <a
@@ -52,6 +55,17 @@
             >
           </li>
         </ul>
+        </nav>
+        <button
+          type="button"
+          class="nav-btn js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="mobile-nav-open" width="32" height="24">
+            <use href="./images/icons.svg#icon-open"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -382,6 +396,28 @@
         </div>
       </section>
     </main>
+    <!-- nav mobile menu-->
+<div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="nav-btn js-close-menu">
+        <svg class="mobile-nav-clos">
+<use href="./images/icons.svg#icon-clos"></use></svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li class="header-item">
+              <a class="header-link current link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./index.html">Contacts</a>
+            </li>
+      </ul>
+    </div>
+
+
+
     <!--footer-->
     <footer class="footer">
       <div class="container footer-logo-soc">
@@ -451,7 +487,7 @@
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="icon-Vector" width="8" height="8">
-            <use href="./images/icons.svg#icon-Vector"></use>
+            <use href="./images/icons.svg#icon-clos"></use>
           </svg>
         </button>
         <form class="modal-form">
@@ -538,5 +574,8 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+     <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" crossorigin="anonymous"></script>
+    
   </body>
 </html>
