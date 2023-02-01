@@ -3,15 +3,15 @@
         width: 1158px;
     }
 
-    .site-nav {
+    .nav-list {
         margin-right: 332px;
     }
 
-    .auth-nav {
+    .contacts {
         gap: 40px;
     }
 
-    .auth-nav .link {
+    .contacts .nav-link {
         padding-top: 24px;
         padding-bottom: 28px;
     }
@@ -133,7 +133,7 @@
         padding-bottom: 120px;
     }
 
-    .button-list {
+    .filter-button-list {
         margin-bottom: 72px;
     }
 

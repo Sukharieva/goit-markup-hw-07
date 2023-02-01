@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .header-nav {
+    .header-container {
         justify-content: space-between;
     }
 
@@ -24,11 +24,10 @@
     gap: 72px;
     }
 
-    .button-list {
+    .filter-button-list {
         flex-wrap: wrap;
         row-gap: 16px;
         column-gap: 23px;
-        max-width: 263px;
         margin-bottom: 48px;
     }
 
