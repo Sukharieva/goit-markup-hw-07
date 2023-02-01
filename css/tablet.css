@@ -221,4 +221,8 @@
         column-gap: 24px;
         row-gap: 72px;
     }
+    .modal {
+        width: 408px;
+        height: 586px;
+    }
 }

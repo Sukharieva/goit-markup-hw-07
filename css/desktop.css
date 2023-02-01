@@ -154,5 +154,8 @@
     .second-footer {
     margin-right: 80px;
 }
-
+.modal {
+    width: 408px;
+    height: 586px;
+}
 }
