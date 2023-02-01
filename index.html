@@ -18,7 +18,10 @@
     <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body class="body">
-    <header  class="header">
+
+<!--header--->
+
+    <header class="header">
       <div class="container header-container">
         <a href="./index.html" class="logo"
           >web<span class="logo-span">studio</span>
@@ -29,9 +32,7 @@
               <a href="./index.html" class="nav-link link current"> Studio </a>
             </li>
             <li class="item">
-              <a href="./portfolio.html" class=" nav-link link ">
-                Portfolio
-              </a>
+              <a href="./portfolio.html" class="nav-link link"> Portfolio </a>
             </li>
             <li class="item">
               <a href="./index.html" class="nav-link link"> Contacts </a>
@@ -45,10 +46,15 @@
               >
             </li>
             <li class="item">
-              <a href="tel:+110001111111" class="contacts-link link">+11 (000) 111-11-11</a>
+              <a href="tel:+110001111111" class="contacts-link link"
+                >+11 (000) 111-11-11</a
+              >
             </li>
           </ul>
         </nav>
+        
+<!--mob menu--->
+
         <button class="menu-open" type="button" data-menu-open>
           <svg class="menu-open-icon" width="32" height="22">
             <use href="./image/icons/symbol-defs-one.svg#icon-hamburger"></use>
@@ -135,6 +141,8 @@
       </div>
     </header>
 
+    <!--hero-->
+
     <main>
       <section class="hero">
         <div class="container">
@@ -209,7 +217,7 @@
           </ul>
         </div>
       </section>
-
+      <!--team-->
       <section class="section-team">
         <div class="container team-container">
           <h2 class="section-team-title">Our Team</h2>
@@ -424,7 +432,7 @@
           </ul>
         </div>
       </section>
-
+      <!--customers -->
       <section class="section-customers">
         <div class="container">
           <h2 class="section-title">Customers</h2>
@@ -488,6 +496,8 @@
       </section>
     </main>
 
+    <!--footer -->
+
     <footer class="footer">
       <div class="container footer-wrap">
         <div class="first-footer">
@@ -542,17 +552,17 @@
           </ul>
         </div>
 
+<!--footer-input -->
+
         <form class="form">
           <p class="social-text-footer">Subscribe</p>
           <div class="footer-form-wrap">
-            <label>
-              <input
-                class="footer-input"
-                type="email"
-                name="email"
-                placeholder="E-mail"
-              />
-            </label>
+            <input
+              class="footer-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
             <button class="btn-footer" type="submit">
               <span class="footer-btn-text">Subscribe</span>
               <svg class="footer-icon" width="24" height="24">
@@ -563,6 +573,8 @@
         </form>
       </div>
     </footer>
+
+    <!--backdrope  -->
 
     <div class="backdrope is-open" data-modal>
       <div class="modal">
@@ -651,7 +663,7 @@
         </form>
       </div>
     </div>
-
+    <!--script -->
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
   </body>
