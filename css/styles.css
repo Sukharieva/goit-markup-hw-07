@@ -181,15 +181,12 @@ img {
 
 .mobile-menu .container {
     overflow: auto;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     height: 100%;
     width: 100%;
     padding: 40px;
-
     background-color: #fff;
 }
 
@@ -212,7 +209,6 @@ color: var(--accent-color);
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-
     color: var(--title-text-color);
 }
 
@@ -282,7 +278,7 @@ color: var(--accent-color);
     background-color: var(--title-text-color);
     padding-top: 112px;
     padding-bottom: 112px;
-    max-width: 1440px;
+   
     height: 432px;
     margin-left: auto;
     margin-right: auto;
@@ -303,7 +299,7 @@ color: var(--accent-color);
     rgba(46, 47, 66, 0.7)),
     url(../image/people-office-mob-2x.jpg);
   }
-}
+  }
 
 .hero-title {
     margin: 0 auto;
@@ -844,10 +840,9 @@ color: var(--accent-color);
 
 .modal {
     position: absolute;
-    top: 50%;
+    top: 400px;
     left: 50%;
     width: 392px;
-    height: 586px;
     padding: 24px;
     background: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -906,6 +901,7 @@ color: var(--accent-color);
 }
 
 .input-text {
+    
     display: block;
     margin-bottom: 4px;
     font-size: 12px;
@@ -1003,6 +999,7 @@ color: var(--accent-color);
     background-color: transparent;
     border: 1.25px solid #2E2F42;
     fill: transparent;
+    cursor: pointer;
     transition: fill var(--hover-delay);
     transform-origin: border,background-color, fill;
 }
