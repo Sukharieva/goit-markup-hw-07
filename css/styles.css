@@ -197,7 +197,8 @@ img {
     margin-top: 16px;
 }
 
-.mobile-nav-link.accent-mob {
+.mobile-nav-link:hover,
+.mobile-nav-link:focus {
 color: var(--accent-color);
 }
 
