@@ -2,7 +2,7 @@
 
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../image/people-office-tab.jpg);
+            url(../image/people-office-tab-1x.jpg);
     }
 
 @media (min-device-pixel-ratio: 2),

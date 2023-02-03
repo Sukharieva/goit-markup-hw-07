@@ -7,7 +7,7 @@
     }
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                url(../image/people-office-mob.jpg);
+                url(../image/people-office-mob-1x.jpg);
         }
 @media (min-device-pixel-ratio: 2),
 
